@@ -48,6 +48,7 @@ if st.session_state.mode == "strong":
         st.write("**Here is your password:**")
         st.success(password)
         st.write("Enjoy your password, keep it in a safe place where you will remember it. :)")
-        st.write("**If password does not meet your site's requirements try adding characters to the password to meet the requirements**")
+        st.write("**If the password does not meet your site's requirements try adding characters to the password to meet the requirements**")
         st.write("<span style='color:red;'>**NEVER SHARE YOUR PASSWORD WITH OTHERS!**</span>", unsafe_allow_html=True)
+
 
